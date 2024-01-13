@@ -1,0 +1,24 @@
+{
+    "name": "angelhernandez/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP8, MVC, SQL, SASS, GULP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Angelhernandez\\AppSalonPhpMvcJsSass\\": "src/",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Angel Hernandez",
+            "email": "angel.lphernandez@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
